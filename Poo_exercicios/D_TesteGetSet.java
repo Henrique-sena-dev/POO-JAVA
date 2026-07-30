@@ -1,3 +1,5 @@
+package poo_exercicios;
+
 public class D_TesteGetSet {
     
     public static void main(String[] args) {

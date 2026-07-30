@@ -1,3 +1,5 @@
+package poo_exercicios;
+
 public class A_Motoboy {
      
       private String nome;

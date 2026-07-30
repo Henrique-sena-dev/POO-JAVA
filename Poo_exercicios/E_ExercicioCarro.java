@@ -1,8 +1,10 @@
+package poo_exercicios;
+
 public class E_ExercicioCarro {
   
   private String modelo;
   private int ano;
-  private boolean ignicao;
+  private boolean ignicao = false;
 
   public void setModelo( String modeloCarro){
     this.modelo = modeloCarro;
@@ -22,11 +24,16 @@ public class E_ExercicioCarro {
     return ano;
   }
   
-   public void setIgnicao( boolean ligarCarro){
-    this.ignicao = ligarCarro;
+   public void setIgnicao(boolean ignicao ){
+    this.ignicao = ignicao;
+    
    }
    public boolean getIgnicao(){
     return ignicao;
+   }
+   public void ligarCarro(){
+     System.out.println("Carro ligado");
+
    }
    
   
@@ -35,7 +42,8 @@ public class E_ExercicioCarro {
     System.out.println("===== informações =====");
     System.out.println("Modelo: " + getModelo());
     System.out.println("Ano: " + getAno());
-    System.out.println("Carro ligado: " + getIgnicao());
+    System.out.println();
+    System.out.println();
   } 
 
   

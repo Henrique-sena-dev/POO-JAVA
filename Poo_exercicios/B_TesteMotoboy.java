@@ -1,3 +1,5 @@
+package poo_exercicios;
+
 public class B_TesteMotoboy {
 
     public static void main(String[] args) {
