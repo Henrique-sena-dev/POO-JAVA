@@ -1,4 +1,4 @@
-package poo_exercicios;
+package src;
 
 public class D_TesteGetSet {
     
