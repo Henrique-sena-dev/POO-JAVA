@@ -5,7 +5,7 @@ public class Casa {
     private int comodos;
     private boolean porta;
 
-    public void casa(String e, int c){
+    public Casa(String e, int c){
         this.endereco = e;
         this.comodos = c;
 
