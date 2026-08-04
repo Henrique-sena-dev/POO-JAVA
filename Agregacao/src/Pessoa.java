@@ -31,4 +31,9 @@ public class Pessoa {
          System.out.println("oi");
 
     }
+    @Override
+    public String toString(){
+        return "Nome:" + nome
+             + "\nidade:" + idade;
+    }
 }
