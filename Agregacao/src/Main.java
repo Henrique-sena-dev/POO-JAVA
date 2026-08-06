@@ -1,6 +1,6 @@
 package Agregacao.src;
 
-public class Teste {
+public class Main {
     public static void main (String [] args){
       Casa c1 = new Casa("Rua a", 3);
       Pessoa p1 = new Pessoa("lolo", 25);
