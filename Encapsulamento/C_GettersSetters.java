@@ -1,4 +1,4 @@
-package src;
+package Encapsulamento;
 
 public class C_GettersSetters {
     
